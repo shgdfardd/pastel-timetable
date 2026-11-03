@@ -1,0 +1,77 @@
+body {
+    background-color: #DDF1FF;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #3979A8;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+h2 {
+    color: #568DB8;
+    font-size: 22px;
+}
+a {
+    display: inline-block;
+    background-color: #A9D6F5;
+    color: #365F85;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #7FC4F2;
+    transform: scale(1.05);
+}
+/* Monday - Lavender */
+.monday-table {
+    background-color: #E9DDF7;
+}
+
+/* Tuesday - Green */
+.tuesday-table {
+    background-color: #c4f5c4;
+}
+
+/* Wednesday - Yellow */
+.wednesday-table {
+    background-color: #F8DCE8;
+}
+
+
+/* Thursday - Pink */
+.thursday-table {
+    background-color: #b9ecee;
+}
+
+/* Friday - Peach */
+.friday-table {
+    background-color: #f7f1b5;
+}
+
+/* Saturday - Blue */
+.saturday-table {
+    background-color: #D6EDF5;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px auto;
+    width: 80%;
+}
+
+td, th {
+    padding: 12px;
+    border: 1px solid white;
+}
